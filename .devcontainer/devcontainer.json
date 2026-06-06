@@ -1,0 +1,10 @@
+{
+  "name": "ES2 - Empréstimo de Equipamentos (Python 3.11)",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "postCreateCommand": "python -m pip install --upgrade pip pytest pytest-cov ruff",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python", "bierner.markdown-mermaid"]
+    }
+  }
+}
