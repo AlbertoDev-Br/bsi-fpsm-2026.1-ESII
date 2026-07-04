@@ -10,10 +10,11 @@ __pycache__/
 .vscode/
 .idea/
 
-# Soluções de referência PUBLICADAS ficam em solucao/ — liberadas APÓS o prazo de cada bloco.
-# Rascunhos e gabaritos PRIVADOS do professor (ainda não liberados) ficam fora do repo:
+# Soluções/gabaritos NÃO vão para o repositório do aluno:
+solucao/
 solucao-professor/
-gabarito-professor/
+gabarito*/
+**/solucao/
 
 # pytest / cobertura / ruff (Aula 10)
 .pytest_cache/
